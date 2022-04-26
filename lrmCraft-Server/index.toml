@@ -1,0 +1,211 @@
+hash-format = "sha256"
+
+[[files]]
+file = "mods/addadd.toml"
+hash = "1339cf5b10aa45e277df9d482397c06c5800700ee76008098252797880be80bb"
+metafile = true
+
+[[files]]
+file = "mods/adorn.toml"
+hash = "cddfd55242436c0e571f7f3620d997a800d65e8aa17e6a8e866b48e03019d0de"
+metafile = true
+
+[[files]]
+file = "mods/appleskin.toml"
+hash = "0940f87fc8d934433725019169945f77b7c27bd4a23828286ffb68aac4810a6c"
+metafile = true
+
+[[files]]
+file = "mods/axes-are-weapons.toml"
+hash = "3c717ff2d339458af0565559ec2b2bf85d4105929586998d544df9b0048284b3"
+metafile = true
+
+[[files]]
+file = "mods/cammies-minecart-tweaks.toml"
+hash = "79f3286302f5e1f5b72deb24e2425420aad6395f81bdfce80d567c943f68279c"
+metafile = true
+
+[[files]]
+file = "mods/charm.toml"
+hash = "67813cd548cd798036ff54373aed8a09ede000f89be8d1990465661f523be7ee"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.toml"
+hash = "8201c0a16ace201405172e56292843cc99d8d675f1e323684943b9cee393acb1"
+metafile = true
+
+[[files]]
+file = "mods/clumps.toml"
+hash = "8267db448b826bea1ef55b5a67afece8f04800ee09db1913972dd07ac4727eca"
+metafile = true
+
+[[files]]
+file = "mods/crafttweaker.toml"
+hash = "4aa3e22d62daa80e0ec96b695c8520c1f5e2b65c9c637c91eda7c6509172a28c"
+metafile = true
+
+[[files]]
+file = "mods/culinaire.toml"
+hash = "2729c49a56c9b94101d7baeb853945ae660cc1e6691abc6c402eef283901286c"
+metafile = true
+
+[[files]]
+file = "mods/dawn.toml"
+hash = "7e13030d0f19326883aaa9c108bc24a3f1aae5e0734cac3cc50eedaeb054cc0f"
+metafile = true
+
+[[files]]
+file = "mods/decorative-blocks.toml"
+hash = "d0319c8f0ecb27bf8830de7625794e14ee5cde25e5a9034c7229026be22e1f09"
+metafile = true
+
+[[files]]
+file = "mods/drink-beer-fabric.toml"
+hash = "79b97591f3abeb8ed70c2e76ae2a324fad82a4ef37de8854a5ac94faf0eca6fd"
+metafile = true
+
+[[files]]
+file = "mods/dynamic-view.toml"
+hash = "7e5718fff4defeaa6e77477c5ddd71f9c5f264ba9a5cdcb226a36eba8abb42e6"
+metafile = true
+
+[[files]]
+file = "mods/essential-commands.toml"
+hash = "426ab385534aa704012b0986b6d29430ddf7e665c1b0bf0e136501859551e18c"
+metafile = true
+
+[[files]]
+file = "mods/fabric-api.toml"
+hash = "99fb566fe03abc87d64b6b541cbe225fa856d15c1ef7a6d4de85e6b6fb0c14e8"
+metafile = true
+
+[[files]]
+file = "mods/fabric-language-kotlin.toml"
+hash = "738ffde3eab8e9d0c616e419862ff9c588bbd6009fad70953bd4d4697c88f202"
+metafile = true
+
+[[files]]
+file = "mods/faux-custom-entity-data.toml"
+hash = "65fa64050134998d42146ca0c0f9580d08370e49cd62e13f24867b19f9edade5"
+metafile = true
+
+[[files]]
+file = "mods/ferrite-core.toml"
+hash = "f19e328fe42f91d1b65e244ee5bcf70f1e5305a27278945098ea85af82e05d0d"
+metafile = true
+
+[[files]]
+file = "mods/ingredient-extension-api.toml"
+hash = "c9469bc9ad4c1444495c9814ec4fac686ba6ff66ffec48bc5ecc864b62ac59e5"
+metafile = true
+
+[[files]]
+file = "mods/inmis.toml"
+hash = "7ac938a09a310e352ccc17980a61942356eb9473a8364d665ecd225c82b5b28a"
+metafile = true
+
+[[files]]
+file = "mods/inventory-profiles-next.toml"
+hash = "a2ebf3766d3b4f0d36ff774d8f5f0c50ba414c8784f01a0bd1871a572c5c2485"
+metafile = true
+
+[[files]]
+file = "mods/krypton.toml"
+hash = "219d4425679c60fd2855a6a39a6fccb6db3948dcc57b9da7c20907c855c5bd3d"
+metafile = true
+
+[[files]]
+file = "mods/lithium.toml"
+hash = "8243fcb2221942db16259a029d2964ca41d7a336fccc60464597d9f0d6699529"
+metafile = true
+
+[[files]]
+file = "mods/login-protection.toml"
+hash = "0c8d7a3a6113680ea64f0fbc53d13e64e8829c8aecc28023d8b5cbf984d83491"
+metafile = true
+
+[[files]]
+file = "mods/macaws-bridges.toml"
+hash = "c3d1ee719077b0e862ba830b5a2a0c200528b61000894db025bab1521ea41465"
+metafile = true
+
+[[files]]
+file = "mods/macaws-doors.toml"
+hash = "5d6ae725aef7a18526486c543f1fcde70922eec1c89b7ba0ebd43a104029d1ee"
+metafile = true
+
+[[files]]
+file = "mods/macaws-fences-and-walls.toml"
+hash = "561cbbd0c3248cf444d5b5166b6c4670ee9c31b396456bc308e2c1ee586de7df"
+metafile = true
+
+[[files]]
+file = "mods/macaws-lights-and-lamps.toml"
+hash = "ee3b06f58e9fe5e75648200456353b0325dfe3422457993a0abb4fd41ed70b34"
+metafile = true
+
+[[files]]
+file = "mods/macaws-paintings.toml"
+hash = "bfda3d538689a0a0e16fe74d144b077ab6400da6551fc72a1867c56ed70f139c"
+metafile = true
+
+[[files]]
+file = "mods/macaws-roofs.toml"
+hash = "2d49005e4385b3ea0ac3d49ba4576dbbcb4b7e7e023fb0fa4de4d555d1bdcd5c"
+metafile = true
+
+[[files]]
+file = "mods/macaws-trapdoors.toml"
+hash = "e497e6259c73982bb154f7ad3bec542ce68b20ca925d3debbc34840ee26c6cb8"
+metafile = true
+
+[[files]]
+file = "mods/macaws-windows.toml"
+hash = "d10dcd1516befbe293a9c78771664d0cdb89d65c94f7436caebd5759aa15dbe1"
+metafile = true
+
+[[files]]
+file = "mods/natures-compass.toml"
+hash = "94ff1c69c59c6f36ddb0210837ee1df1705041ba87e3aface68e09c173034566"
+metafile = true
+
+[[files]]
+file = "mods/paradise-lost.toml"
+hash = "53d666e5ab53bc32b1785323486c8513dc0ea9bcae7aec1de686232f6dc02dc4"
+metafile = true
+
+[[files]]
+file = "mods/phosphor.toml"
+hash = "1fbb24b0b382c6d21bd2fed103e564bfe5f3e5ee10e6686faafd0164f07bf8da"
+metafile = true
+
+[[files]]
+file = "mods/right-click-harvest.toml"
+hash = "76790dadcda0b1802e3d49b1cdde75c756fba55b54c16a0806a855d1240fd4db"
+metafile = true
+
+[[files]]
+file = "mods/spark.toml"
+hash = "0058c8ca9c69c15046d289a2028e0a0126c68017b9ab359e70f6e5dc370cf6b4"
+metafile = true
+
+[[files]]
+file = "mods/tabtps.toml"
+hash = "6b5cc538bb76a4a15dd0a6e313f0cc3f9dc55e119b3e7dcb4d0c9d42801f0f15"
+metafile = true
+
+[[files]]
+file = "mods/textile-backup.toml"
+hash = "9c1309ba19b992a2e4ebbbf60b720364d9ffc046c214f22a0343054a846ec440"
+metafile = true
+
+[[files]]
+file = "mods/trinkets-fabric.toml"
+hash = "af45970ec75dccbb9b6a5f553e7aecbe5ab8c7f06e65abaffa679603c9af6240"
+metafile = true
+
+[[files]]
+file = "mods/wthit.toml"
+hash = "432768bbac822ed5b194b6560f65d6d31dafe232e2cd457aa4c1af2b925f4ca9"
+metafile = true

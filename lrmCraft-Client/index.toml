@@ -1,0 +1,296 @@
+hash-format = "sha256"
+
+[[files]]
+file = "mods/addadd.toml"
+hash = "1339cf5b10aa45e277df9d482397c06c5800700ee76008098252797880be80bb"
+metafile = true
+
+[[files]]
+file = "mods/adorn.toml"
+hash = "cddfd55242436c0e571f7f3620d997a800d65e8aa17e6a8e866b48e03019d0de"
+metafile = true
+
+[[files]]
+file = "mods/appleskin.toml"
+hash = "0940f87fc8d934433725019169945f77b7c27bd4a23828286ffb68aac4810a6c"
+metafile = true
+
+[[files]]
+file = "mods/architectury-fabric.toml"
+hash = "9458f2379e1a68cb81337b694da4ff1d76344cc5c87a49fbc6880cef61c76187"
+metafile = true
+
+[[files]]
+file = "mods/axes-are-weapons.toml"
+hash = "3c717ff2d339458af0565559ec2b2bf85d4105929586998d544df9b0048284b3"
+metafile = true
+
+[[files]]
+file = "mods/betterf3.toml"
+hash = "1c4001eff34abec7ad25eac24b554bb8658cf849ab285f05611168a15c3479cc"
+metafile = true
+
+[[files]]
+file = "mods/cammies-minecart-tweaks.toml"
+hash = "79f3286302f5e1f5b72deb24e2425420aad6395f81bdfce80d567c943f68279c"
+metafile = true
+
+[[files]]
+file = "mods/charm.toml"
+hash = "67813cd548cd798036ff54373aed8a09ede000f89be8d1990465661f523be7ee"
+metafile = true
+
+[[files]]
+file = "mods/charmonium.toml"
+hash = "9b17f81e976c2aaf1c4ed29266b805c78b8145357a02d6fe0c9f13682f388933"
+metafile = true
+
+[[files]]
+file = "mods/clickthrough.toml"
+hash = "1a22f8e7f1718b40216542f41669501144c80bf1c5bbec265177aeaa8e93495a"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.toml"
+hash = "8201c0a16ace201405172e56292843cc99d8d675f1e323684943b9cee393acb1"
+metafile = true
+
+[[files]]
+file = "mods/continuity.toml"
+hash = "4932ddd020065b82614ddb7db60679f4c615b4c780dcac10c6ca43c3ba530c62"
+metafile = true
+
+[[files]]
+file = "mods/crafttweaker.toml"
+hash = "4aa3e22d62daa80e0ec96b695c8520c1f5e2b65c9c637c91eda7c6509172a28c"
+metafile = true
+
+[[files]]
+file = "mods/culinaire.toml"
+hash = "2729c49a56c9b94101d7baeb853945ae660cc1e6691abc6c402eef283901286c"
+metafile = true
+
+[[files]]
+file = "mods/dark-loading-screen.toml"
+hash = "4754813e43ba908c01de0a8deccdd427367cbaa0502e8ebeb633049c6361c3f3"
+metafile = true
+
+[[files]]
+file = "mods/dashloader.toml"
+hash = "22a9f27ba11eebe161bc6b7ae30aa1af90efe2a8b1cb84acd30cf164021fb77f"
+metafile = true
+
+[[files]]
+file = "mods/dawn.toml"
+hash = "0838d9426d8bba711b822968b0c9b2a41d064d6c0b071c7f44a096b620d49b94"
+metafile = true
+
+[[files]]
+file = "mods/decorative-blocks.toml"
+hash = "d0319c8f0ecb27bf8830de7625794e14ee5cde25e5a9034c7229026be22e1f09"
+metafile = true
+
+[[files]]
+file = "mods/drink-beer-fabric.toml"
+hash = "79b97591f3abeb8ed70c2e76ae2a324fad82a4ef37de8854a5ac94faf0eca6fd"
+metafile = true
+
+[[files]]
+file = "mods/durabilityviewer.toml"
+hash = "b38955363599622bb27fa008bb70b8c92d022af86c2adaa3be35fd7915763748"
+metafile = true
+
+[[files]]
+file = "mods/dynamic-fps.toml"
+hash = "ffc1f6d147394bfeb65b2fb9a78ca7d3365cbf5192c31af1312bc899190e4e34"
+metafile = true
+
+[[files]]
+file = "mods/fabric-api.toml"
+hash = "99fb566fe03abc87d64b6b541cbe225fa856d15c1ef7a6d4de85e6b6fb0c14e8"
+metafile = true
+
+[[files]]
+file = "mods/fabric-language-kotlin.toml"
+hash = "738ffde3eab8e9d0c616e419862ff9c588bbd6009fad70953bd4d4697c88f202"
+metafile = true
+
+[[files]]
+file = "mods/farsight-fabric.toml"
+hash = "342460b8b5e2e7656e3e8001da9cd2ee92bec4e288eb7701a319aac391f8295c"
+metafile = true
+
+[[files]]
+file = "mods/faux-custom-entity-data.toml"
+hash = "507f16deece1a58391865fddaa08667440b9c01d95c46c940383dd57f53cab71"
+metafile = true
+
+[[files]]
+file = "mods/ferrite-core.toml"
+hash = "f19e328fe42f91d1b65e244ee5bcf70f1e5305a27278945098ea85af82e05d0d"
+metafile = true
+
+[[files]]
+file = "mods/indium.toml"
+hash = "735bb894e8fd0430de8fe331347ff24c5c64643bc65f2c040f7a82fb17e8b826"
+metafile = true
+
+[[files]]
+file = "mods/ingredient-extension-api.toml"
+hash = "c9469bc9ad4c1444495c9814ec4fac686ba6ff66ffec48bc5ecc864b62ac59e5"
+metafile = true
+
+[[files]]
+file = "mods/inmis.toml"
+hash = "7ac938a09a310e352ccc17980a61942356eb9473a8364d665ecd225c82b5b28a"
+metafile = true
+
+[[files]]
+file = "mods/inventory-profiles-next.toml"
+hash = "a2ebf3766d3b4f0d36ff774d8f5f0c50ba414c8784f01a0bd1871a572c5c2485"
+metafile = true
+
+[[files]]
+file = "mods/iris.toml"
+hash = "4df16f85610e373b5ac1c9fd5908225e38c5b993cf471c5034f2190df1924157"
+metafile = true
+
+[[files]]
+file = "mods/krypton.toml"
+hash = "219d4425679c60fd2855a6a39a6fccb6db3948dcc57b9da7c20907c855c5bd3d"
+metafile = true
+
+[[files]]
+file = "mods/lambdabettergrass.toml"
+hash = "01f79a7fb966690009a42f285e779bac8f7958df56240494e4d3d7d862332c2d"
+metafile = true
+
+[[files]]
+file = "mods/lambdynamiclights.toml"
+hash = "158c40f09b2ed4fe14f5f2925751796fe11f6baee7e1ac7f35931ad831631a3d"
+metafile = true
+
+[[files]]
+file = "mods/macaws-bridges.toml"
+hash = "c3d1ee719077b0e862ba830b5a2a0c200528b61000894db025bab1521ea41465"
+metafile = true
+
+[[files]]
+file = "mods/macaws-doors.toml"
+hash = "5d6ae725aef7a18526486c543f1fcde70922eec1c89b7ba0ebd43a104029d1ee"
+metafile = true
+
+[[files]]
+file = "mods/macaws-fences-and-walls.toml"
+hash = "561cbbd0c3248cf444d5b5166b6c4670ee9c31b396456bc308e2c1ee586de7df"
+metafile = true
+
+[[files]]
+file = "mods/macaws-lights-and-lamps.toml"
+hash = "ee3b06f58e9fe5e75648200456353b0325dfe3422457993a0abb4fd41ed70b34"
+metafile = true
+
+[[files]]
+file = "mods/macaws-paintings.toml"
+hash = "bfda3d538689a0a0e16fe74d144b077ab6400da6551fc72a1867c56ed70f139c"
+metafile = true
+
+[[files]]
+file = "mods/macaws-roofs.toml"
+hash = "2d49005e4385b3ea0ac3d49ba4576dbbcb4b7e7e023fb0fa4de4d555d1bdcd5c"
+metafile = true
+
+[[files]]
+file = "mods/macaws-trapdoors.toml"
+hash = "e497e6259c73982bb154f7ad3bec542ce68b20ca925d3debbc34840ee26c6cb8"
+metafile = true
+
+[[files]]
+file = "mods/macaws-windows.toml"
+hash = "d10dcd1516befbe293a9c78771664d0cdb89d65c94f7436caebd5759aa15dbe1"
+metafile = true
+
+[[files]]
+file = "mods/modmenu.toml"
+hash = "a73f71d58f3a3c5f01e86f32209d03d002f73768eedff9cb6f9cbd150ecb6361"
+metafile = true
+
+[[files]]
+file = "mods/mouse-tweaks.toml"
+hash = "496ee18fbcb9e7e2c629048a9f40bf642df42cc0287691d98932b9d311cede46"
+metafile = true
+
+[[files]]
+file = "mods/natures-compass.toml"
+hash = "94ff1c69c59c6f36ddb0210837ee1df1705041ba87e3aface68e09c173034566"
+metafile = true
+
+[[files]]
+file = "mods/ok-zoomer.toml"
+hash = "7bb446109174fb831ced527d41df13962b1c46677f7001557b7211e54e5d3e34"
+metafile = true
+
+[[files]]
+file = "mods/paradise-lost.toml"
+hash = "53d666e5ab53bc32b1785323486c8513dc0ea9bcae7aec1de686232f6dc02dc4"
+metafile = true
+
+[[files]]
+file = "mods/presence-footsteps.toml"
+hash = "525252bb860d002a1985a4ffbb4cee19d727dc01bc78eaee0d3881e7bfff2eca"
+metafile = true
+
+[[files]]
+file = "mods/reeses-sodium-options.toml"
+hash = "d935b491016306e60b08bc234cc978ac84412d84d1ae5a9b6f8878a09ea25202"
+metafile = true
+
+[[files]]
+file = "mods/right-click-harvest.toml"
+hash = "76790dadcda0b1802e3d49b1cdde75c756fba55b54c16a0806a855d1240fd4db"
+metafile = true
+
+[[files]]
+file = "mods/roughly-enough-items.toml"
+hash = "8613849ff88460d1f68573874b0f98105db657eda7bb26a6d75e42e110f99a84"
+metafile = true
+
+[[files]]
+file = "mods/roughly-enough-resources.toml"
+hash = "eb6150a90b50591452feb9fd110e369f4d2eca3f10e1f3f2c0f262703a575899"
+metafile = true
+
+[[files]]
+file = "mods/sodium-extra.toml"
+hash = "f8d262a27787b948f6ec71d548131bcac4a60adc616a78db852a40d6461563be"
+metafile = true
+
+[[files]]
+file = "mods/sodium.toml"
+hash = "d1480fd38a1ac53311baa2d57b92556834372f6ac04c355169441df9a59a161c"
+metafile = true
+
+[[files]]
+file = "mods/trinkets.toml"
+hash = "c47440891447bce092f260a5f0d25ff91ae428e208afad6ccb5ae6cb003ffcff"
+metafile = true
+
+[[files]]
+file = "mods/universal-graves.toml"
+hash = "2ddfbac59763f97d257bf317c807af5aebe7bec73384a6da94c53593d0736a35"
+metafile = true
+
+[[files]]
+file = "mods/wthit.toml"
+hash = "432768bbac822ed5b194b6560f65d6d31dafe232e2cd457aa4c1af2b925f4ca9"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-minimap.toml"
+hash = "2c3e45c4e9ea9b350a7e0454f3355166696f43dcd96f8f4b3dadb839e5092c33"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-world-map.toml"
+hash = "b9adf44af9509f804debc59a7cf43e8b1a8eccb565a928be3f2e855b5acd8a94"
+metafile = true

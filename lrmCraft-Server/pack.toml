@@ -1,0 +1,13 @@
+name = "lrmCraft-Server"
+author = "booglypi"
+version = "1.2.0"
+pack-format = "packwiz:1.0.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "7d44b38cedc43ed097b3f6988a4c480a86c80e12ba760479b1fd75fa745fc1a4"
+
+[versions]
+fabric = "0.14.3"
+minecraft = "1.18.2"

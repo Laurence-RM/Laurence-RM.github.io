@@ -1,0 +1,13 @@
+name = "CraftTweaker"
+filename = "CraftTweaker-fabric-1.18.2-9.1.114.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3768/608/CraftTweaker-fabric-1.18.2-9.1.114.jar"
+hash-format = "sha1"
+hash = "40d13ca300e13034b6504f09b61c6cbc71cb4735"
+
+[update]
+[update.curseforge]
+file-id = 3768608
+project-id = 239197
