@@ -1,6 +1,6 @@
 name = "Dynamic View[Forge/Fabric]"
 filename = "dynview.fabric-1.18.2-2.1.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://edge.forgecdn.net/files/3758/57/dynview.fabric-1.18.2-2.1.jar"

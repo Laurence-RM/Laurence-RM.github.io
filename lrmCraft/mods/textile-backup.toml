@@ -1,6 +1,6 @@
 name = "Textile Backup"
 filename = "textile_backup-2.3.0-1.18.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://edge.forgecdn.net/files/3542/373/textile_backup-2.3.0-1.18.jar"

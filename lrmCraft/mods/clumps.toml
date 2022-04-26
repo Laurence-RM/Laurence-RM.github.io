@@ -1,6 +1,6 @@
 name = "Clumps"
 filename = "Clumps-fabric-1.18.2-8.0.0+8.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://edge.forgecdn.net/files/3757/580/Clumps-fabric-1.18.2-8.0.0+8.jar"

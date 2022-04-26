@@ -1,6 +1,6 @@
 name = "Farsight [Fabric]"
 filename = "farsight.fabric-1.18-1.8.jar"
-side = "both"
+side = "client"
 
 [download]
 url = "https://edge.forgecdn.net/files/3686/937/farsight.fabric-1.18-1.8.jar"

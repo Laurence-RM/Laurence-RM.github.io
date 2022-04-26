@@ -1,6 +1,6 @@
 name = "Roughly Enough Resources"
 filename = "rer-2.5.0.jar"
-side = "both"
+side = "client"
 
 [download]
 url = "https://edge.forgecdn.net/files/3736/226/rer-2.5.0.jar"

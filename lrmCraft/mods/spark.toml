@@ -1,6 +1,6 @@
 name = "spark"
 filename = "spark-1.9.1-fabric.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://edge.forgecdn.net/files/3767/289/spark-1.9.1-fabric.jar"

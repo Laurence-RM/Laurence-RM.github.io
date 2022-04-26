@@ -1,13 +1,13 @@
-name = "Axes Are Weapons"
+name = "Axes Are Weapons (Fabric/Forge)"
 filename = "AxesAreWeapons-1.5.1-fabric-1.17.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/1jvt7RTc/versions/1.5.1-fabric-1.17/AxesAreWeapons-1.5.1-fabric-1.17.1.jar"
+url = "https://edge.forgecdn.net/files/3522/488/AxesAreWeapons-1.5.1-fabric-1.17.1.jar"
 hash-format = "sha1"
 hash = "919ad75edd28462bb5f10da4e9fa3eb4f0fe6522"
 
 [update]
-[update.modrinth]
-mod-id = "1jvt7RTc"
-version = "yqjLvbku"
+[update.curseforge]
+file-id = 3522488
+project-id = 456457
