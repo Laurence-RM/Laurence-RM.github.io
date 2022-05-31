@@ -1,0 +1,45 @@
+/* Primary Colors */
+/* P: #263238 | rgb(38, 50, 56)
+Light: #4f5b62 | RGB(79, 91, 98)
+Dark: #000a12 | RGB(0, 10, 18) */
+
+header {
+    background-color: #263238;
+    padding: 10% 5% 5%;
+    color: white;
+    font-family: monospace;
+    font-size: 1.25rem;
+    height: 200px;
+    margin: -10px;
+    overflow: hidden;
+}
+
+body {
+    background-color: #4f5b62;
+    overflow: hidden;
+}
+
+.navmenu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.navmenu li {
+    display: block;
+    font-size: 1.5rem;
+    padding-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    float: right;
+    text-align: left;
+    outline: 5px solid #000a12;
+    padding: 10px;
+}
