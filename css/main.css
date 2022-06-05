@@ -3,20 +3,24 @@
 Light: #4f5b62 | RGB(79, 91, 98)
 Dark: #000a12 | RGB(0, 10, 18) */
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Source+Serif+Pro:wght@400;600;700&display=swap');
+
 header {
     background-color: #263238;
-    padding: 10% 5% 5%;
+    padding: 9% 5%;
+    padding-top: 25px;
     color: white;
     font-family: monospace;
     font-size: 1.25rem;
-    height: 200px;
+    height: 150px;
     margin: -10px;
     overflow: hidden;
 }
 
 body {
     background-color: #4f5b62;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 .navmenu {
@@ -42,4 +46,49 @@ a {
     text-align: left;
     outline: 5px solid #000a12;
     padding: 10px;
+}
+
+.project-list {
+    width: 100vw;
+    margin: 10% 0;
+    height: auto;
+}
+
+.project {
+    color: white;
+    width: 80%;
+    height: 20vw;
+    margin: 50px 10%;
+    background-color: #263238;
+    outline: #000a12 solid 5px;
+    border-radius: 10px;
+    max-height: 400px;
+}
+
+.project-image {
+    float: left;
+    width: 30%;
+    height: inherit;
+    max-height: 400px;
+}
+
+img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.project-info {
+    float: right;
+    width: 62%;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1.25rem;
+    padding: 4%;
+}
+
+.project-info h3 {
+    font-size: 2rem;
+    font-style: bold;
+    font-family: 'Open Sans';
+    margin: 0;
 }
