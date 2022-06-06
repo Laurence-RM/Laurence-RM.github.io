@@ -1,14 +1,14 @@
-document.write(`
-    <header>
-        <div style="float: left; width: 80%">
-            <h1 style="text-align: left"><a id="page_header" href="index.html">header</a></h1>
-            <div class="navmenu">
-                <li><a href="pages/resume.html">Résumé</a></li>
-                <li><a href="pages/aboutme.html">About Me</a></li>
-                <li><a href="pages/contact.html">Get in Contact</a></li>
-            </div>
-        </div>
-        <h2 class="logo">Laurence<br />Ross<br />Mullen</h2>
-    </header>
-`);
-document.getElementById("page_header").innerHTML = document.getElementsByTagName("title")[0].innerHTML;
+function expandProject(project) {
+    var element = document.getElementById(project);
+    var chevron_down = document.getElementsByClassName("fa-chevron-down");
+    var chevron_up = document.getElementsByClassName("fa-chevron-up");
+    if (element.style.display == "none") {
+        element.style.display = "inline-block";
+        chevron_down[0].style.display = "none";
+        chevron_up[0].style.display = "inline";
+    } else {
+        element.style.display = "none";
+        chevron_down[0].style.display = "inline";
+        chevron_up[0].style.display = "none";
+    }
+}

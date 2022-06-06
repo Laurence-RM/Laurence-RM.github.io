@@ -5,15 +5,18 @@ Dark: #000a12 | RGB(0, 10, 18) */
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Source+Serif+Pro:wght@400;600;700&display=swap');
 
+* {
+  box-sizing: border-box;
+}
+
 header {
     background-color: #263238;
-    padding: 9% 5%;
-    padding-top: 25px;
+    padding: 5%;
     color: white;
     font-family: monospace;
     font-size: 1.25rem;
-    height: 150px;
-    margin: -10px;
+    height: auto;
+    margin: -10px -10px 0;
     overflow: hidden;
 }
 
@@ -57,19 +60,19 @@ a {
 .project {
     color: white;
     width: 80%;
-    height: 20vw;
     margin: 50px 10%;
     background-color: #263238;
     outline: #000a12 solid 5px;
     border-radius: 10px;
-    max-height: 400px;
+    min-height: 300px;
+    overflow: hidden;
+    position: relative;
 }
 
 .project-image {
     float: left;
     width: 30%;
-    height: inherit;
-    max-height: 400px;
+    height: 300px;
 }
 
 img {
@@ -83,7 +86,7 @@ img {
     width: 62%;
     font-family: 'Source Serif Pro', serif;
     font-size: 1.25rem;
-    padding: 4%;
+    margin: 2% 4% 0%;
 }
 
 .project-info h3 {
@@ -91,4 +94,35 @@ img {
     font-style: bold;
     font-family: 'Open Sans';
     margin: 0;
+}
+
+.project-expand {
+    width: 100%;
+    height: 200px;
+    background-color: gray;
+    border-top: 3px solid #000a12;
+}
+
+.fa-chevron-down {
+    font-size: 2rem;
+    float: right;
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+}
+
+.fa-chevron-up {
+    font-size: 2rem;
+    float: right;
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+}
+
+.fa-chevron-down:hover {
+    color: #000a12;
+}
+
+.fa-chevron-up:hover {
+    color: #000a12;
 }
