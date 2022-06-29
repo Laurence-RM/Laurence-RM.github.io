@@ -10,9 +10,9 @@ Dark: #000a12 | RGB(0, 10, 18) */
 
 h1 {
     font-family: 'IBM Plex Sans', 'Roboto';
-    font-size: 10rem;
+    font-size: 12rem;
     font-weight: 100;
-    margin-left: -10px;
+    margin: 5% -10px
 }
 
 h1:hover {
@@ -33,7 +33,6 @@ body {
     background-color: #000a12;
     overflow-x: hidden;
     overflow-y: scroll;
-    font-weight: 100;
 }
 
 .navmenu {
@@ -45,7 +44,8 @@ body {
 
 .navmenu li {
     display: block;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
+    font-weight: 300;
     padding-bottom: 5px;
     font-family: 'IBM Plex Serif' !important;
 }
@@ -90,7 +90,7 @@ img {
     font-size: 1.25rem;
     margin-right: 5%;
     font-family: 'IBM Plex Sans', 'Roboto';
-    font-weight: 200;
+    font-weight: 300;
 }
 
 .project-info h3 {
