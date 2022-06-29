@@ -3,27 +3,37 @@
 Light: #4f5b62 | RGB(79, 91, 98)
 Dark: #000a12 | RGB(0, 10, 18) */
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Source+Serif+Pro:wght@400;600;700&display=swap');
-
+ @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 * {
   box-sizing: border-box;
 }
 
+h1 {
+    font-family: 'IBM Plex Sans', 'Roboto';
+    font-size: 10rem;
+    font-weight: 100;
+    margin-left: -10px;
+}
+
+h1:hover {
+    font-style: italic;
+    margin-left: 0;
+}
+
 header {
-    background-color: #263238;
-    padding: 5%;
+    background-color: #000a12;
+    padding: 5% 0%;
+    margin-left: 10%;
     color: white;
-    font-family: monospace;
     font-size: 1.25rem;
-    height: auto;
-    margin: -10px -10px 0;
     overflow: hidden;
 }
 
 body {
-    background-color: #4f5b62;
+    background-color: #000a12;
     overflow-x: hidden;
     overflow-y: scroll;
+    font-weight: 100;
 }
 
 .navmenu {
@@ -35,8 +45,12 @@ body {
 
 .navmenu li {
     display: block;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     padding-bottom: 5px;
+    font-family: 'IBM Plex Serif' !important;
+}
+.navmenu li:hover {
+    font-style: italic;
 }
 
 a {
@@ -44,85 +58,74 @@ a {
     color: white;
 }
 
-.logo {
-    float: right;
-    text-align: left;
-    outline: 5px solid #000a12;
-    padding: 10px;
-}
-
 .project-list {
     width: 100vw;
-    margin: 10% 0;
     height: auto;
 }
 
 .project {
     color: white;
-    width: 80%;
-    margin: 50px 10%;
-    background-color: #263238;
-    outline: #000a12 solid 5px;
-    border-radius: 10px;
-    min-height: 300px;
+    width: auto;
+    margin: 0% 10% 5%;
+    height: auto;
     overflow: hidden;
-    position: relative;
 }
 
 .project-image {
-    float: left;
+    height: auto;
     width: 30%;
-    height: 300px;
+    float: right;
 }
 
 img {
-    height: 100%;
+    height: auto;
+    max-width: 100%;
     object-fit: cover;
-    width: 100%;
+    float: right;
 }
 
 .project-info {
-    float: right;
-    width: 62%;
-    font-family: 'Source Serif Pro', serif;
+    float: left;
+    width: 65%;
     font-size: 1.25rem;
-    margin: 2% 4% 0%;
+    margin-right: 5%;
+    font-family: 'IBM Plex Sans', 'Roboto';
+    font-weight: 200;
 }
 
 .project-info h3 {
-    font-size: 2rem;
-    font-style: bold;
-    font-family: 'Open Sans';
+    font-weight: 100;
+    font-size: 5rem;
     margin: 0;
+}
+
+.project-info h3:hover {
+    font-style: italic;
 }
 
 .project-expand {
     width: 100%;
-    height: 200px;
-    background-color: gray;
-    border-top: 3px solid #000a12;
+    height: 0px;
+    transition: height .5s ease;
+    outline: white solid 1px;
+    display: flex;
 }
 
-.fa-chevron-down {
-    font-size: 2rem;
-    float: right;
-    position: absolute;
-    bottom: 10px;
-    right: 15px;
-}
-
-.fa-chevron-up {
-    font-size: 2rem;
-    float: right;
-    position: absolute;
-    bottom: 10px;
-    right: 15px;
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 200,
+        'GRAD' 0;
+    font-size: 60px !important;
+    float: left;
+    position: relative;
+    left: -15px;
+    transition: color 0.2s, transform .5s;
+    transform: rotateX(0deg);
+    display: inline;
+    cursor: pointer;
 }
 
 .fa-chevron-down:hover {
-    color: #000a12;
-}
-
-.fa-chevron-up:hover {
-    color: #000a12;
+    color: #4f5b62;
 }
