@@ -5,7 +5,7 @@ function expandProject(project) {
         element.style.height = "300px";
         chevron_down.style.transform = "rotateX(180deg)";
     } else {
-        element.style.height = "5px";
+        element.style.height = "0px";
         chevron_down.style.transform = "rotateX(0deg)";
     }
 }
