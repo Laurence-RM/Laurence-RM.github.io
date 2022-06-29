@@ -20,15 +20,14 @@
         <script src="https://kit.fontawesome.com/ecf386dad2.js" crossorigin="anonymous"></script>
     </head>
     <header>
-    <div style="float: left; width: 80%">
-        <h1 style="text-align: left"><a id="page_header" href="index.html">Portfolio</a></h1>
+    <div style="float: left; width: 100%">
+        <h1 style="text-align: left"><a id="page_header" href="index.html">Laurence R. Mullen</a></h1>
         <div class="navmenu">
             <li><a href="resume.html">Résumé</a></li>
             <li><a href="aboutme.html">About Me</a></li>
             <li><a href="contact.html">Get in Contact</a></li>
         </div>
     </div>
-    <h2 class="logo">Laurence<br />Ross<br />Mullen</h2>
 </header>
     <body>
         <!--[if lt IE 7]>
@@ -40,24 +39,21 @@
 
         <div class="project-list">
             <div class="project">
-                <div class="">                
-                    <div class="project-image">
-                        <img src="img/Femoral.png" alt="Senior Project" />
-                    </div>
-                    <div class="project-info">
-                        <h3>Senior Project</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Donec euismod, nisl eu aliquam aliquet, nisl nunc
-                            interdum nisi, sed egestas nisl nisl euismod nisl.
-                            Donec euismod, nisl eu aliquam aliquet, nisl nunc
-                            interdum nisi, sed egestas nisl nisl euismod nisl.
-                        </p>
-                    </div>
-                    <i class="fa-solid fa-chevron-down" style="display:inline" onClick="expandProject('p1')"></i>
-                    <i class="fa-solid fa-chevron-up" style="display:none" onClick="expandProject('p1')"></i>
+                <div class="project-image">
+                    <img src="img/Femoral.png" alt="Senior Project" />
                 </div>
-                <div id="p1" class="project-expand" style="display: none"></div>
+                <div class="project-info">
+                    <h3>Senior Project</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Donec euismod, nisl eu aliquam aliquet, nisl nunc
+                        interdum nisi, sed egestas nisl nisl euismod nisl.
+                        Donec euismod, nisl eu aliquam aliquet, nisl nunc
+                        interdum nisi, sed egestas nisl nisl euismod nisl.
+                    </p>
+                </div>
+                <div id="p1" class="project-expand"></div>
+                <i id="p1_chev" class="fa-solid fa-chevron-down" style="display:inline" onClick="expandProject('p1')"></i>
             </div>
             <div class="project">
                 <div class="project-image">
@@ -73,6 +69,8 @@
                         interdum nisi, sed egestas nisl nisl euismod nisl.
                     </p>
                 </div>
+                <div id="p2" class="project-expand"></div>
+                <i id="p2_chev" class="fa-solid fa-chevron-down" style="display:inline" onClick="expandProject('p2')"></i>
             </div>
         </div>
     </body>
