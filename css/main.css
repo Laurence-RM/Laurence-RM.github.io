@@ -6,17 +6,25 @@ Dark: #000a12 | RGB(0, 10, 18) */
  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 * {
   box-sizing: border-box;
+  font-family: 'IBM Plex Sans', 'Roboto';
 }
 
 h1 {
-    font-family: 'IBM Plex Sans', 'Roboto';
     font-size: 12rem;
     font-weight: 100;
-    margin: 5% -10px
+    margin: 5% -10px;
 }
 
-h1:hover {
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
     font-style: italic;
+}
+
+#page_header:hover {
     margin-left: 0;
 }
 
@@ -24,8 +32,6 @@ header {
     background-color: #000a12;
     padding: 5% 0%;
     margin-left: 10%;
-    color: white;
-    font-size: 1.25rem;
     overflow: hidden;
 }
 
@@ -37,36 +43,62 @@ body {
 
 .navmenu {
     list-style-type: none;
-    padding: 0;
-    margin: 0;
+    padding-left: 10%;
     text-align: left;
+    width: auto;
+    background-color: #000a12;
+    color: white;
+    display: block;
+    transition: all .5s;
+    position: sticky;
+    top: -1px;
 }
 
-.navmenu li {
-    display: block;
-    font-size: 1.5rem;
-    font-weight: 300;
+.navmenu.sticky {
+    display: inline-flex;
+    width: 100%;
+    border-bottom: 1px solid white;
+}
+
+.navmenu li a {
+    margin-right: 30px;
+    font-size: 1.75rem;
+    font-weight: 400;
     padding-bottom: 5px;
     font-family: 'IBM Plex Serif' !important;
 }
-.navmenu li:hover {
-    font-style: italic;
+
+.about-me {
+    padding: 5% 10%;
+    color: white;
+    overflow: hidden;
+    font-weight: 300;
+    font-size: 1.25rem;
 }
 
-a {
-    text-decoration: none;
-    color: white;
+.about-me h2 {
+    font-size: 6rem;
+    font-weight: 100;
+    margin: 0;
 }
 
 .project-list {
-    width: 100vw;
+    width: 100%;
     height: auto;
+    color: white;
+    padding: 0% 10%;
+}
+
+.project-list h2 {
+    font-size: 6rem;
+    font-weight: 100;
+    margin: 0;
+    margin-bottom: 2rem;
 }
 
 .project {
-    color: white;
     width: auto;
-    margin: 0% 10% 5%;
+    margin-bottom: 5%;
     height: auto;
     overflow: hidden;
 }
@@ -89,26 +121,30 @@ img {
     width: 65%;
     font-size: 1.25rem;
     margin-right: 5%;
-    font-family: 'IBM Plex Sans', 'Roboto';
     font-weight: 300;
 }
 
 .project-info h3 {
     font-weight: 100;
-    font-size: 5rem;
+    font-size: 4rem;
     margin: 0;
+    width: fit-content;
+    user-select: none;
 }
 
 .project-info h3:hover {
     font-style: italic;
+    cursor: pointer;
 }
 
 .project-expand {
     width: 100%;
     height: 0px;
-    transition: height .5s ease;
+    transition: height .5s;
     outline: white solid 1px;
-    display: flex;
+    overflow: hidden;
+    font-size: 1.25rem;
+    font-weight: 300;
 }
 
 .material-symbols-outlined {
@@ -124,8 +160,9 @@ img {
     transform: rotateX(0deg);
     display: inline;
     cursor: pointer;
+    user-select: none;
 }
 
-.fa-chevron-down:hover {
+.material-symbols-outlined:hover {
     color: #4f5b62;
 }
