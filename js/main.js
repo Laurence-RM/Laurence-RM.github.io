@@ -11,13 +11,3 @@ function expandProject(project) {
         chevron_down.style.transform = "rotateX(0deg)";
     }
 }
-
-const sticky_nav = document.querySelector('.navmenu');
-
-const observer = new IntersectionObserver(
-    ([e]) =>
-    e.target.classList.toggle('sticky', e.intersectionRatio < 1),
-    {threshold: [1]}
-);
-
-observer.observe(sticky_nav);
