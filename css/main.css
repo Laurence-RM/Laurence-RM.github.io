@@ -8,12 +8,13 @@ Dark: #000a12 | RGB(0, 10, 18) */
     box-sizing: border-box;
     font-family: 'IBM Plex Serif', 'Roboto';
     transition: margin-left .5s, width .5s, padding-left .5s;
+    scroll-behavior: smooth;
 }
 
 h1 {
     font-size: 12rem;
     font-weight: 100;
-    margin: 5% 0;
+    margin: 0;
     color: white;
     font-family: 'IBM Plex Sans';
 }
@@ -21,22 +22,23 @@ h1 {
 a {
     text-decoration: none;
     color: white;
+    transition: font-weight .1s;
 }
 
 a:hover {
-    font-style: italic;
+    font-weight: 100 !important;
 }
 
 
 header {
-    background-color: #000a12;
-    margin: 5% 0% 10%;
+    margin: 0% 0% 10%;
+    padding-top: 5%;
     margin-left: 5vw;
     overflow: hidden;
 }
 
 body {
-    background-color: #000a12;
+    background: linear-gradient(#000a12 10%, #00061C 90%);
     overflow-x: hidden;
     overflow-y: scroll;
 }
@@ -44,6 +46,7 @@ body {
 .navmenu {
     list-style-type: none;
     padding-top: 25px;
+    margin-top: 15px;
     margin-left: 5vw;
     text-align: left;
     color: white;
@@ -74,7 +77,7 @@ body {
     font-size: 96px;
     font-weight: 100;
     margin: 0;
-    margin-bottom: 3%;
+    margin-bottom: 25px;
 }
 
 .about-me p {
@@ -95,7 +98,7 @@ body {
     font-size: 96px;
     font-weight: 100;
     margin: 0;
-    margin-bottom: 3%;
+    margin-bottom: 25px;
 }
 
 .project {
@@ -120,15 +123,18 @@ body {
 
 .project-info h3 {
     font-weight: 200;
-    font-size: 48px;
+    font-size: 56px;
     margin: 0;
+    margin-bottom: 1%;
     width: fit-content;
     user-select: none;
+    cursor: pointer;
+    font-style: italic;
+    transition: color .2s;
 }
 
 .project-info h3:hover {
-    font-style: italic;
-    cursor: pointer;
+    color: #8dabbb;
 }
 
 .project-info p {

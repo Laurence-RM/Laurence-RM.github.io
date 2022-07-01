@@ -19,13 +19,14 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
         <script async src="js/main.js"></script>
     </head>
-    <header>
+    <header id="top">
         <div style="float: left; width: auto">
             <h1 style="text-align: left">Laurence<br/>Mullen</a></h1>
         </div>
     </header>
     <body>
         <div class="navmenu">
+            <li><a href="#top">Home</a></li>
             <li><a href="#about">About Me</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#resume">Résumé</a></li>
@@ -49,7 +50,7 @@
             <h2>Portfolio</h2>
             <div class="project">
                 <div class="project-info">
-                    <h3 onClick="expandProject('p1')">Symmetry Trap Plugin</h3>
+                    <h3 tabindex="0" onkeydown="if(event.keyCode == 13) {expandProject('p1')}" onClick="expandProject('p1')">Symmetry Trap Plugin</h3>
                     <p>
                         Working with the Biomechanics, Robotics, and Imaging in Orthopaedics Lab at the University of Florida, I developed a plugin for the Joint Track Auto (JTA) application.
                         JTA aids orthopaedic surgeons, providing a feature-rich program which can autonomously register 3D models of joint implants to X-ray images; this provides surgeons with greater accuracy when analyzing the fit of a patient's implant.
@@ -65,7 +66,7 @@
             </div>
             <div class="project">
                 <div class="project-info">
-                    <h3 onClick="expandProject('p2')">AlgoRhythm</h3>
+                    <h3 tabindex="0" onkeydown="if(event.keyCode == 13) {expandProject('p2')}" onClick="expandProject('p2')">AlgoRhythm</h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Donec euismod, nisl eu aliquam aliquet, nisl nunc
@@ -80,7 +81,7 @@
             </div>
             <div class="project">
                 <div class="project-info">
-                    <h3 onClick="expandProject('p3')">Project 3</h3>
+                    <h3 tabindex="0" onkeydown="if(event.keyCode == 13) {expandProject('p3')}" onClick="expandProject('p3')">Project 3</h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Donec euismod, nisl eu aliquam aliquet, nisl nunc
