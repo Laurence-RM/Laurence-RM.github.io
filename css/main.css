@@ -73,7 +73,7 @@ body {
     display: inline-block;
 }
 
-.about-me h2 {
+h2 {
     font-size: 96px;
     font-weight: 100;
     margin: 0;
@@ -92,13 +92,6 @@ body {
     color: white;
     margin: 0% 5%;
     margin-left: 20vw;
-}
-
-.project-list h2 {
-    font-size: 96px;
-    font-weight: 100;
-    margin: 0;
-    margin-bottom: 25px;
 }
 
 .project {
@@ -176,4 +169,33 @@ body {
 
 .material-symbols-outlined:hover {
     color: #4f5b62;
+}
+
+.resume {
+    margin-left: 20vw;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    color: white;
+}
+
+.resume p {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.resume a {
+    font-weight: 400;
+}
+
+.contact {
+    margin-left: 20vw;
+    margin-bottom: 10%;
+    color: white;
+    overflow: hidden;
+}
+
+.contact a {
+    font-size: 32px;
+    font-weight: 200;
 }
