@@ -1,1 +1,166 @@
-Hello World
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Portfolio</title>
+        <meta
+            name="description"
+            content="Notable Projects by Laurence Mullen"
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <script async src="js/main.js"></script>
+    </head>
+    <header id="top">
+        <div style="float: left; width: auto">
+            <h1 style="text-align: left">Laurence<br/>Mullen</a></h1>
+        </div>
+    </header>
+    <body>
+        <div class="navmenu">
+            <li><a href="#top">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#resume">Résumé</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </div>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">
+                You are using an <strong>outdated</strong> browser. Please
+                <a href="#">upgrade your browser</a> to improve your experience.
+            </p>
+        <![endif]-->
+        <div id="about" class="about-me">
+            <h2>About Me</h2>
+            <p>
+                Hi there! I am an aspiring software engineer with a passion for environmental issues and creating meaningful solutions. 
+                I recently graduated from the University of Florida with a B.S. in Computer Science and a minor in Environmental Science. 
+                Born in London, I have dual citizenship and am happy to travel for work.
+                I am pursuing a full-stack or backend software engineering position, either remote or in New York, NY.
+            </p>
+        </div>
+        <div id="portfolio" class="project-list">
+            <h2>Portfolio</h2>
+            <div class="project">
+                <div class="project-info">
+                    <h3 tabindex="0" onkeydown="if(event.keyCode == 13) {expandProject('p1')}" onClick="expandProject('p1')">Symmetry Trap Plugin</h3>
+                    <p>
+                        Working with the Biomechanics, Robotics, and Imaging in Orthopaedics Lab at the University of Florida, I developed a plugin for the Joint Track Auto (JTA) application.
+                        The symmetrical nature of some knee implants causes the JTA optimizer to align the model to a false minima of the cost function.
+                        The symmetry trap addon helps to solve this problem by identifying and comparing various minimums on the cost function.
+                    </p>
+                </div>
+                <div id="p1" class="project-expand">
+                    <p>
+                        JTA aids orthopaedic surgeons, providing a feature-rich program which can autonomously register 3D models of joint implants to X-ray images; this provides surgeons with greater accuracy when analyzing the fit of a patient's implant.
+                    </p>
+                    <div class="tags">
+                        <div class="tag"><p>C++</p></div>
+                        <div class="tag"><p>Qt</p></div>
+                        <div class="tag"><p>VTK</p></div>
+                        <div class="tag"><p>OpenCV</p></div>
+                        <div class="tag"><p>cuDNN</p></div>
+                        <div class="tag"><p>libtorch</p></div>
+                    </div>
+                </div>
+                <span id="p1_chev" class="material-symbols-outlined" onClick="expandProject('p1')">expand_more</span>
+            </div>
+            <div class="project">
+                <div class="project-info">
+                    <h3 tabindex="0" onkeydown="if(event.keyCode == 13) {expandProject('p2')}" onClick="expandProject('p2')">AlgoRhythm</h3>
+                    <p>
+                        AlgoRythm is a real-time audio visualizer with customizable features and Windows media integration to graphically display information about audio levels and media.
+                    </p>
+                </div>  
+                <div id="p2" class="project-expand">
+                    <p>
+                        A symester long project for the course Performant Programming with Python, this project utilized various APIs and libraries such as PyAudio, NumPy, SciPy, and PyGame to create a functional audio visualizer.
+                        Every aspect of the visualizer is customizable and features a variety of different visualization styles. The Spotify and Windows Media Player APIs are also integrated to display media information and to pull album art colors for a dynamic color display which are influenced by the song's tempo.
+                        This project demonstrates my ability to work with APIs, libraries, and frameworks to create a functional and optimized application that is deployed as an installable package.
+                    </p>                   
+                    <div class="tags">
+                        <div class="tag"><p>Python</p></div>
+                        <div class="tag"><p>PyPi</p></div>
+                        <div class="tag"><p>NumPy</p></div>
+                        <div class="tag"><p>SciPy</p></div>
+                        <div class="tag"><p>PyGame</p></div>
+                    </div>
+                </div>
+                <span id="p2_chev" class="material-symbols-outlined" onClick="expandProject('p2')">expand_more</span>
+            </div>
+            <div class="project">
+                <div class="project-info">
+                    <h3 tabindex="0" onkeydown="if(event.keyCode == 13) {expandProject('p3')}" onClick="expandProject('p3')">Activist Agenda</h3>
+                    <p>
+                        Activist Agenda is a web application created to support political activism and social movements.
+                        It offers a platform for users to create and view differents events/protests, post updates, share important information and causes, and connect with other activists.
+                    </p>
+                </div>
+                <div id="p3" class="project-expand">
+                    <p>
+                        Built using the MERN stack with various APIs and deployed using Heroku.
+                        Developed over the course of a semester for a Software Engineering course, this project demonstrates my ability to work with a team to implement a full-stack web application.
+                    </p>
+                    <div class="tags">
+                        <div class="tag"><p>HTML</p></div>
+                        <div class="tag"><p>JavaScript</p></div>
+                        <div class="tag"><p>CSS</p></div>
+                        <div class="tag"><p>APIs</p></div>
+                        <div class="tag"><p>Node.js</p></div>
+                        <div class="tag"><p>React.js</p></div>
+                        <div class="tag"><p>Express.js</p></div>
+                        <div class="tag"><p>MongoDB</p></div>
+                        <div class="tag"><p>Heroku</p></div>
+                    </div>
+                </div>
+                <span id="p3_chev" class="material-symbols-outlined" onClick="expandProject('p3')">expand_more</span>
+            </div>
+            <div class="project">
+                <div class="project-info">
+                    <h3 tabindex="0" onkeydown="if(event.keyCode == 13) {expandProject('p4')}" onClick="expandProject('p4')">Yacht Website</h3>
+                    <p>
+                        A modern and fluid website for a yacht; designed per client's request. Built from scratch using HTML, CSS, and JavaScript and deployed on WordPress.
+                        <br/>Contracted by Denison Yacht Sales.
+                    </p>
+                    
+                </div>
+                <div id="p4" class="project-expand">
+                    <img src="img/PriveeSample.gif" alt="Gif of Privee Website" />
+                    <div class="tags">
+                        <div class="tag"><p>HTML</p></div>
+                        <div class="tag"><p>JavaScript</p></div>
+                        <div class="tag"><p>CSS</p></div>
+                        <div class="tag"><p>WordPress</p></div>
+                    </div>
+                </div>
+                <span id="p4_chev" class="material-symbols-outlined" onClick="expandProject('p4')">expand_more</span>
+            </div>
+        </div>
+        <div id="resume" class="resume">
+            <h2>Résumé</h2>
+            <p>
+                • Experience in C++, C, Java, Python, Julia, SQL, JavaScript, MatLab, R, and HTML/CSS
+                <br/> • Experience working with Linux, Git, Docker, Ansible, Nginx, and managing a server
+                <br/> • Proficient at creating quality documents with Excel and Word
+                <br/> • Skilled and persistent at identifying issues and creating solutions, utilizing advanced research and analytical skills (Google-foo)
+                <br/> • Leadership and management skills as an Eagle Scout
+                <br/> <br/><a href="resume.pdf" target="_blank">Check it out here</a>.
+            </p>
+        </div>
+        <div id="contact" class="contact">
+            <h2>Contact Me</h2>
+            <li><a href="mailto:laurencemullen99@gmail.com">laurencemullen99@gmail.com</a></li>
+            <li><a href="https://github.com/Laurence-RM" target="_blank">Github</a></li>
+            <li><a href="https://www.linkedin.com/in/laurence-mullen/" target="_blank">LinkedIn</a></li>
+        </div>
+        
+    </body>
+</html>

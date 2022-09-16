@@ -1,0 +1,244 @@
+/* Primary Colors */
+/* P: #263238 | rgb(38, 50, 56)
+Light: #4f5b62 | RGB(79, 91, 98)
+Dark: #000a12 | RGB(0, 10, 18) */
+
+ @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'IBM Plex Serif', 'Roboto';
+    transition: margin-left .5s, width .5s, padding-left .5s;
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-size: 12rem;
+    font-weight: 100;
+    margin: 0;
+    color: white;
+    font-family: 'IBM Plex Sans';
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: font-weight .1s;
+}
+
+a:hover {
+    font-weight: 100 !important;
+}
+
+
+header {
+    margin: 0% 0% 10%;
+    padding-top: 5%;
+    margin-left: 5vw;
+    overflow: hidden;
+}
+
+body {
+    background: linear-gradient(#000a12 10%, #00061C 90%);
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.navmenu {
+    list-style-type: none;
+    padding-top: 25px;
+    margin-top: 15px;
+    margin-left: 5vw;
+    text-align: left;
+    color: white;
+    position: sticky;
+    float: inline-start;
+    top: 0;
+    width: 10vw;
+    min-width: fit-content;
+}
+
+.navmenu li a {
+    font-size: 24px;
+    font-weight: 300;
+    padding-bottom: 5px;
+}
+
+.about-me {
+    margin-left: 5vw;
+    margin-bottom: 13%;
+    width: 50%;
+    max-width: 100ch;
+    color: white;
+    overflow: hidden;
+    display: inline-block;
+}
+
+h2 {
+    font-size: 96px;
+    font-weight: 100;
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+.about-me p {
+    margin: 0;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.project-list {
+    width: fit-content;
+    height: auto;
+    color: white;
+    margin: 0% 5%;
+    margin-left: 20vw;
+}
+
+.project {
+    width: auto;
+    margin-bottom: 3%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-image {
+    float: right;
+    height: auto;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    flex-shrink: 0;
+}
+
+.project-image img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    object-fit: cover;
+    margin-top:auto;
+}
+
+.project-info {
+    float: left;
+    width: 100%;
+    flex-shrink: 0;
+}
+
+.project-info h3 {
+    font-weight: 200;
+    font-size: 56px;
+    margin: 0;
+    margin-bottom: 1%;
+    width: fit-content;
+    user-select: none;
+    cursor: pointer;
+    font-style: italic;
+    transition: color .2s;
+}
+
+.project-info h3:hover {
+    color: #8dabbb;
+}
+
+.project-info p {
+    margin: 0;
+    max-width: 100ch;
+    padding-right: 5%;
+    font-size: 24px;
+    font-weight: 300;
+    float: left;
+    margin-bottom: 2%;
+}
+
+.project-expand {
+    width: 100%;
+    height: 0px;
+    transition: height .5s;
+    outline: white solid 1px;
+    overflow: hidden;
+    font-size: 24px;
+    font-weight: 300;
+    flex-shrink: 0;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: auto;
+    height: fit-content;
+    margin-bottom: 2%;
+}
+
+.tag {
+    border: white solid 1px;
+    border-radius: 25px;
+    height: 40px;
+    margin-right: 15px;
+    min-width: 70px;
+}
+
+.tag p {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 200;
+    color: white;
+    padding: 8px 15px 12px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 200,
+        'GRAD' 0;
+    font-size: 60px !important;
+    float: left;
+    position: relative;
+    left: -15px;
+    transition: color 0.2s, transform .5s;
+    transform: rotateX(0deg);
+    display: inline;
+    cursor: pointer;
+    user-select: none;
+}
+
+.material-symbols-outlined:hover {
+    color: #4f5b62;
+}
+
+.resume {
+    margin-left: 20vw;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    color: white;
+}
+
+.resume p {
+    margin: 0;
+    margin-right: 5%;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.resume a {
+    font-weight: 400;
+    font-size: 28px
+}
+
+
+.contact {
+    margin-left: 20vw;
+    margin-bottom: 10%;
+    color: white;
+    overflow: hidden;
+}
+
+.contact a {
+    font-size: 32px;
+    font-weight: 200;
+}
