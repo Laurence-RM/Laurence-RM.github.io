@@ -41,9 +41,9 @@
         <div id="about" class="about-me">
             <h2>About Me</h2>
             <p>
-                Hello. I am a software engineer with a passion for environmental issues and creating meaningful solutions. 
+                Hi there! I am an aspiring software engineer with a passion for environmental issues and creating meaningful solutions. 
                 I recently graduated from the University of Florida with a B.S. in Computer Science and a minor in Environmental Science. 
-                Born in London but raised in the United States, I have three citizenships and am happy to travel for work.
+                Born in London, I have dual citizenship and am happy to travel for work.
                 I am pursuing a full-stack or backend software engineering position, either remote or in New York, NY.
             </p>
         </div>
@@ -54,15 +54,13 @@
                     <h3 tabindex="0" onkeydown="if(event.keyCode == 13) {expandProject('p1')}" onClick="expandProject('p1')">Symmetry Trap Plugin</h3>
                     <p>
                         Working with the Biomechanics, Robotics, and Imaging in Orthopaedics Lab at the University of Florida, I developed a plugin for the Joint Track Auto (JTA) application.
-                        JTA aids orthopaedic surgeons, providing a feature-rich program which can autonomously register 3D models of joint implants to X-ray images; this provides surgeons with greater accuracy when analyzing the fit of a patient's implant.
+                        The symmetrical nature of some knee implants causes the JTA optimizer to align the model to a false minima of the cost function.
+                        The symmetry trap addon helps to solve this problem by identifying and comparing various minimums on the cost function.
                     </p>
-                </div>
-                <div class="project-image">
-                    <img src="img/Femoral.png" alt="Senior Project" />
                 </div>
                 <div id="p1" class="project-expand">
                     <p>
-                        The symmetrical nature of some knee implants causes the JTA optimizer to align the model to a false minima of the cost function. The symmetry trap addon helps to solve this problem by identifying and comparing various minimums on the cost function.
+                        JTA aids orthopaedic surgeons, providing a feature-rich program which can autonomously register 3D models of joint implants to X-ray images; this provides surgeons with greater accuracy when analyzing the fit of a patient's implant.
                     </p>
                     <div class="tags">
                         <div class="tag"><p>C++</p></div>
@@ -81,41 +79,67 @@
                     <p>
                         AlgoRythm is a real-time audio visualizer with customizable features and Windows media integration to graphically display information about audio levels and media.
                     </p>
+                </div>  
+                <div id="p2" class="project-expand">
+                    <p>
+                        A symester long project for the course Performant Programming with Python, this project utilized various APIs and libraries such as PyAudio, NumPy, SciPy, and PyGame to create a functional audio visualizer.
+                        Every aspect of the visualizer is customizable and features a variety of different visualization styles. The Spotify and Windows Media Player APIs are also integrated to display media information and to pull album art colors for a dynamic color display which are influenced by the song's tempo.
+                        This project demonstrates my ability to work with APIs, libraries, and frameworks to create a functional and optimized application that is deployed as an installable package.
+                    </p>                   
+                    <div class="tags">
+                        <div class="tag"><p>Python</p></div>
+                        <div class="tag"><p>PyPi</p></div>
+                        <div class="tag"><p>NumPy</p></div>
+                        <div class="tag"><p>SciPy</p></div>
+                        <div class="tag"><p>PyGame</p></div>
+                    </div>
                 </div>
-                <div class="project-image">
-                    <img src="img/AlgoRythm_Logo.png" alt="AlgoRhythm" />
-                </div>                        
-                <div id="p2" class="project-expand"></div>
                 <span id="p2_chev" class="material-symbols-outlined" onClick="expandProject('p2')">expand_more</span>
             </div>
             <div class="project">
                 <div class="project-info">
                     <h3 tabindex="0" onkeydown="if(event.keyCode == 13) {expandProject('p3')}" onClick="expandProject('p3')">Activist Agenda</h3>
                     <p>
-                        Web application created to support political activism and social movements.
-                        Activist Agenda offers a platform for users to create and view differents events/protests, post updates, share important information and causes, and connect with other activists.
-                        Built using the MERN stack with various APIs and deployed using Heroku.
+                        Activist Agenda is a web application created to support political activism and social movements.
+                        It offers a platform for users to create and view differents events/protests, post updates, share important information and causes, and connect with other activists.
                     </p>
                 </div>
-                <div class="project-image">
-                    <img src="img/ActivistAgenda_Logo.png" alt="AlgoRhythm" />
+                <div id="p3" class="project-expand">
+                    <p>
+                        Built using the MERN stack with various APIs and deployed using Heroku.
+                        Developed over the course of a semester for a Software Engineering course, this project demonstrates my ability to work with a team to implement a full-stack web application.
+                    </p>
+                    <div class="tags">
+                        <div class="tag"><p>HTML</p></div>
+                        <div class="tag"><p>JavaScript</p></div>
+                        <div class="tag"><p>CSS</p></div>
+                        <div class="tag"><p>APIs</p></div>
+                        <div class="tag"><p>Node.js</p></div>
+                        <div class="tag"><p>React.js</p></div>
+                        <div class="tag"><p>Express.js</p></div>
+                        <div class="tag"><p>MongoDB</p></div>
+                        <div class="tag"><p>Heroku</p></div>
+                    </div>
                 </div>
-                <div id="p3" class="project-expand"></div>
                 <span id="p3_chev" class="material-symbols-outlined" onClick="expandProject('p3')">expand_more</span>
             </div>
             <div class="project">
                 <div class="project-info">
-                    <h3 tabindex="0" onkeydown="if(event.keyCode == 13) {expandProject('p4')}" onClick="expandProject('p4')">Privee Website</h3>
+                    <h3 tabindex="0" onkeydown="if(event.keyCode == 13) {expandProject('p4')}" onClick="expandProject('p4')">Yacht Website</h3>
                     <p>
-                        A modern and fluid website for PRIVEE Yacht. Built from scratch using HTML, CSS, and JavaScript and deployed on WordPress.
+                        A modern and fluid website for a yacht; designed per client's request. Built from scratch using HTML, CSS, and JavaScript and deployed on WordPress.
                         <br/>Contracted by Denison Yacht Sales.
                     </p>
-                </div>
-                <div class="project-image">
-                    <img src="img/AlgoRythm_Logo.png" alt="AlgoRhythm" />
+                    
                 </div>
                 <div id="p4" class="project-expand">
                     <img src="img/PriveeSample.gif" alt="Gif of Privee Website" />
+                    <div class="tags">
+                        <div class="tag"><p>HTML</p></div>
+                        <div class="tag"><p>JavaScript</p></div>
+                        <div class="tag"><p>CSS</p></div>
+                        <div class="tag"><p>WordPress</p></div>
+                    </div>
                 </div>
                 <span id="p4_chev" class="material-symbols-outlined" onClick="expandProject('p4')">expand_more</span>
             </div>
@@ -123,10 +147,10 @@
         <div id="resume" class="resume">
             <h2>Résumé</h2>
             <p>
-                • Experience in C++, C, Java, Python, Julia, SQL, JavaScript, MatLab, and HTML/CSS
+                • Experience in C++, C, Java, Python, Julia, SQL, JavaScript, MatLab, R, and HTML/CSS
                 <br/> • Experience working with Linux, Git, Docker, Ansible, Nginx, and managing a server
                 <br/> • Proficient at creating quality documents with Excel and Word
-                <br/> • Skilled and persistent at identifying issues and creating solutions, utilizing advanced research and analytical skills (google-foo)
+                <br/> • Skilled and persistent at identifying issues and creating solutions, utilizing advanced research and analytical skills (Google-foo)
                 <br/> • Leadership and management skills as an Eagle Scout
                 <br/> <br/><a href="resume.pdf" target="_blank">Check it out here</a>.
             </p>

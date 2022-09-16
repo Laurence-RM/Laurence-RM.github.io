@@ -123,7 +123,7 @@ h2 {
 
 .project-info {
     float: left;
-    width: 70%;
+    width: 100%;
     flex-shrink: 0;
 }
 
@@ -145,7 +145,7 @@ h2 {
 
 .project-info p {
     margin: 0;
-    max-width: 70ch;
+    max-width: 100ch;
     padding-right: 5%;
     font-size: 24px;
     font-weight: 300;
