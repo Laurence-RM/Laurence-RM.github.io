@@ -12,11 +12,12 @@ Dark: #000a12 | RGB(0, 10, 18) */
 }
 
 h1 {
-    font-size: 12rem;
+    font-size: min(16vw, 192px);
     font-weight: 100;
     margin: 0;
     color: white;
     font-family: 'IBM Plex Sans';
+    text-align: left;
 }
 
 a {
@@ -47,24 +48,58 @@ body {
     list-style-type: none;
     padding-top: 25px;
     margin-top: 15px;
-    margin-left: 5vw;
+    padding-left: 3vw;
     text-align: left;
     color: white;
     position: sticky;
     float: inline-start;
     top: 0;
-    width: 10vw;
+    width: 15vw;
     min-width: fit-content;
 }
 
 .navmenu li a {
-    font-size: 24px;
+    font-size: min(24px, 4vw);
     font-weight: 300;
     padding-bottom: 5px;
 }
 
+@media screen and (max-width: 800px) {
+    .navmenu {
+        width: 100%;
+        position: relative;
+        margin-bottom: 10%;
+        padding-left: 5vw;
+    }
+
+    .about-me {
+        width: auto !important;
+        padding-left: 5vw !important;
+    }
+
+    .about-me p {
+        padding-right: 5%;
+    }
+
+    p {
+        width: auto !important;
+    }
+
+    .project-list {
+        padding-left: 5vw !important;
+    }
+
+    .resume {
+        padding-left: 5vw !important;
+    }
+
+    .contact {
+        padding-left: 5vw !important;
+    }
+
+}
+
 .about-me {
-    margin-left: 5vw;
     margin-bottom: 13%;
     width: 50%;
     max-width: 100ch;
@@ -74,7 +109,7 @@ body {
 }
 
 h2 {
-    font-size: 96px;
+    font-size: min(96px, 8vw);
     font-weight: 100;
     margin: 0;
     margin-bottom: 25px;
@@ -83,15 +118,15 @@ h2 {
 .about-me p {
     margin: 0;
     font-weight: 300;
-    font-size: 24px;
+    font-size: min(24px, 4vw);
 }
 
 .project-list {
-    width: fit-content;
+    width: 100%;
     height: auto;
     color: white;
-    margin: 0% 5%;
-    margin-left: 20vw;
+    padding: 0% 5%;
+    padding-left: 15vw;
 }
 
 .project {
@@ -114,7 +149,7 @@ h2 {
 }
 
 .project-image img {
-    width: 100%;
+    width: fit-content;
     max-width: 400px;
     height: auto;
     object-fit: cover;
@@ -129,7 +164,7 @@ h2 {
 
 .project-info h3 {
     font-weight: 200;
-    font-size: 56px;
+    font-size: min(3.5rem, 6vw);
     margin: 0;
     margin-bottom: 1%;
     width: fit-content;
@@ -147,21 +182,29 @@ h2 {
     margin: 0;
     max-width: 100ch;
     padding-right: 5%;
-    font-size: 24px;
+    font-size: min(1.5rem, 4vw);
     font-weight: 300;
     float: left;
     margin-bottom: 2%;
 }
 
 .project-expand {
-    width: 100%;
     height: 0px;
+    width: 100%;
     transition: height .5s;
-    outline: white solid 1px;
+    border-top: white solid 1px;
+    border-bottom: white solid 1px;
     overflow: hidden;
-    font-size: 24px;
     font-weight: 300;
+    max-width: 100ch;
+    font-size: min(1.5rem, 4vw);
     flex-shrink: 0;
+    margin-top: -1px;
+}
+
+.project-expand img {
+    width: 100%;
+    max-width: max-content;
 }
 
 .tags {
@@ -170,7 +213,7 @@ h2 {
     flex-direction: row;
     width: auto;
     height: fit-content;
-    margin-bottom: 2%;
+    margin-bottom: 20px;
 }
 
 .tag {
@@ -183,7 +226,7 @@ h2 {
 
 .tag p {
     margin: 0;
-    font-size: 20px;
+    font-size: min(1.25rem, 3.5vw);
     font-weight: 200;
     color: white;
     padding: 8px 15px 12px;
@@ -212,7 +255,7 @@ h2 {
 }
 
 .resume {
-    margin-left: 20vw;
+    padding-left: 15vw;
     margin-bottom: 10%;
     margin-top: 5%;
     color: white;
@@ -221,7 +264,7 @@ h2 {
 .resume p {
     margin: 0;
     margin-right: 5%;
-    font-size: 24px;
+    font-size: min(1.5rem, 4vw);
     font-weight: 300;
 }
 
@@ -232,13 +275,13 @@ h2 {
 
 
 .contact {
-    margin-left: 20vw;
+    padding-left: 15vw;
     margin-bottom: 10%;
     color: white;
     overflow: hidden;
 }
 
 .contact a {
-    font-size: 32px;
+    font-size: min(2rem, 6vw);
     font-weight: 200;
 }
