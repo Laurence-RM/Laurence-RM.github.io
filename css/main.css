@@ -242,12 +242,12 @@ h2 {
     font-size: 60px !important;
     float: left;
     position: relative;
-    left: -15px;
     transition: color 0.2s, transform .5s;
     transform: rotateX(0deg);
-    display: inline;
     cursor: pointer;
     user-select: none;
+    margin-right: 100%;
+    margin-left: -15px;
 }
 
 .material-symbols-outlined:hover {
@@ -270,7 +270,7 @@ h2 {
 
 .resume a {
     font-weight: 400;
-    font-size: 28px
+    font-size: min(1.75rem, 4.5vw);
 }
 
 
