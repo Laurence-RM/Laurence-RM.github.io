@@ -7,7 +7,6 @@ Dark: #000a12 | RGB(0, 10, 18) */
 * {
     box-sizing: border-box;
     font-family: 'IBM Plex Serif', 'Roboto';
-    transition: margin-left .5s, width .5s, padding-left .5s;
     scroll-behavior: smooth;
 }
 
@@ -46,20 +45,18 @@ body {
 
 .navmenu {
     list-style-type: none;
-    padding-top: 25px;
-    margin-top: 15px;
-    padding-left: 3vw;
+    margin: 20px auto;
+    padding: 15px 3vw;
     text-align: left;
     color: white;
     position: sticky;
     float: inline-start;
     top: 0;
     width: 15vw;
-    min-width: fit-content;
 }
 
 .navmenu li a {
-    font-size: min(24px, 4vw);
+    font-size: min(1.5rem, 2vw);
     font-weight: 300;
     padding-bottom: 5px;
 }
@@ -72,9 +69,13 @@ body {
         padding-left: 5vw;
     }
 
+    .navmenu li a {
+        font-size: 1.5rem;
+    }
+
     .about-me {
-        width: auto !important;
         padding-left: 5vw !important;
+        width: 100% !important;
     }
 
     .about-me p {
@@ -100,9 +101,9 @@ body {
 }
 
 .about-me {
-    margin-bottom: 13%;
-    width: 50%;
-    max-width: 100ch;
+    width: 81vw;
+    margin-bottom: 6%;
+    padding-right: 5%;
     color: white;
     overflow: hidden;
     display: inline-block;
@@ -119,6 +120,7 @@ h2 {
     margin: 0;
     font-weight: 300;
     font-size: min(24px, 4vw);
+    max-width: 100ch;
 }
 
 .project-list {
@@ -204,7 +206,6 @@ h2 {
 
 .project-expand img {
     width: 100%;
-    max-width: max-content;
 }
 
 .tags {
@@ -273,7 +274,6 @@ h2 {
     font-size: min(1.75rem, 4.5vw);
 }
 
-
 .contact {
     padding-left: 15vw;
     margin-bottom: 10%;
@@ -283,5 +283,21 @@ h2 {
 
 .contact a {
     font-size: min(2rem, 6vw);
+    font-weight: 200;
+    margin-left: 5px;
+}
+
+.contact ul {
+    padding-left: 16px;
+}
+
+footer {
+    padding-left: 15vw;
+    margin: 5% 0;
+}
+
+footer p {
+    color: white;
+    font-size: 18px;
     font-weight: 200;
 }
