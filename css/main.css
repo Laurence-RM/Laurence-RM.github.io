@@ -204,7 +204,6 @@ h2 {
 
 .project-expand img {
     width: 100%;
-    max-width: max-content;
 }
 
 .tags {
@@ -273,7 +272,6 @@ h2 {
     font-size: min(1.75rem, 4.5vw);
 }
 
-
 .contact {
     padding-left: 15vw;
     margin-bottom: 10%;
@@ -283,5 +281,16 @@ h2 {
 
 .contact a {
     font-size: min(2rem, 6vw);
+    font-weight: 200;
+}
+
+footer {
+    padding-left: 15vw;
+    margin: 5% 0;
+}
+
+footer p {
+    color: white;
+    font-size: 18px;
     font-weight: 200;
 }
