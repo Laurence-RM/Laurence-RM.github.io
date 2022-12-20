@@ -39,14 +39,63 @@
         <div id="about" class="about-me">
             <h2>About Me</h2>
             <p>
-                Hi there! I am an aspiring software engineer with a passion for environmental issues and creating meaningful solutions. 
-                I recently graduated from the University of Florida with a B.S. in Computer Science and a minor in Environmental Science. 
-                Born in London, I have dual citizenship and am happy to travel for work.
-                I am pursuing a full-stack or backend software engineering position, either remote or in New York, NY.
+                I recently graduated from the University of Florida with a B.S. in Computer Science and a minor in Environmental Science.
+                As an Eagle Scout with a passion for environmental issues, I hope to utilize my skills to work on difficult problems that can contribute to impactful solutions.
+                <br/><br/>
+                With a few years of experience as a freelance web developer, I've built modern and secure websites and full-stack web applications for various companies.
+                I am proficient in languages like Python, C++, Java, JavaScript, and SQL, and have experience with frameworks like Flask and React.js.
+                <br/><br/>
+                I am looking to apply my skills and experience to work on challenging problems in a full-stack or backend software engineering position, either remotely or in New York, NY.
             </p>
         </div>
         <div id="portfolio" class="project-list">
             <h2>Portfolio</h2>
+            <div class="project">
+                <div class="project-info">
+                    <h3 tabindex="0" onkeydown="if(event.keyCode == 13) {expandProject('p4')}" onClick="expandProject('p4')">Freelance Web Development</h3>
+                    <p>
+                        Have been contracted for serveral projects for companies in the South Florida yachting industry since 2021.
+                        These projects range from modern static websites, to full-stack web applications with a responsive React frontend, an efficient Node.js backend, and a SQL/NoSQL DB.
+                        <br/><br/> I am currently contracted to develop a user friendly, feature-rich CRM system catering to charter brokerage operations at a leading yacht management company in Fort Lauderdale, FL.
+                    </p>
+                </div>
+                <div id="p4" class="project-expand closed" style="max-height: 1200px;">
+                    <p>
+                        <b>2022: Full-stack CRM System</b><br/>
+                        A new CRM system tailored to the needs of charter brokers.
+                        This application provides charter brokers with powerful, targeted features and a user-friendly interface to help manage client inquiries, optimize daily workflow, and assist with data analysis.
+                        <br/><br/>
+                        A system designed with the specific requirements of charter brokers in mind greatly improves their efficiency and effectiveness while managing clients and completing daily tasks.
+                        This greatly enhances the quality of life in the workplace and ultimately increases productivity.
+                    </p>
+                    <div class="tags">
+                        <div class="tag"><p>Flask</p></div>
+                        <div class="tag"><p>Node.js</p></div>
+                        <div class="tag"><p>React.js</p></div>
+                        <div class="tag"><p>SQL</p></div>
+                        <div class="tag"><p>HTML</p></div>
+                        <div class="tag"><p>CSS</p></div>
+                        <div class="tag"><p>JavaScript</p></div>
+                        <div class="tag"><p>Python</p></div>
+                        <div class="tag"><p>APIs</p></div>
+                    </div>
+                    <p>
+                        <b>2021: Static Website Example</b><br/>
+                        A modern and fluid website, designed per client's request. Built from scratch using HTML, CSS, and JavaScript and deployed on WordPress.
+                        <br/><br/>
+                        <img src="img/PriveeSample.gif" alt="Gif of Privee Website" />
+                        Contracted by a yacht managment company based in Fort Lauderdale, FL.
+
+                    </p>
+                    <div class="tags">
+                        <div class="tag"><p>HTML</p></div>
+                        <div class="tag"><p>CSS</p></div>
+                        <div class="tag"><p>JavaScript</p></div>
+                        <div class="tag"><p>WordPress</p></div>
+                    </div>
+                </div>
+                <span id="p4_chev" class="material-symbols-outlined" onClick="expandProject('p4')">expand_more</span>
+            </div>
             <div class="project">
                 <div class="project-info">
                     <h3 tabindex="0" onkeydown="if(event.keyCode == 13) {expandProject('p1')}" onClick="expandProject('p1')">Symmetry Trap Plugin</h3>
@@ -82,12 +131,13 @@
                         AlgoRythm is a real-time audio visualizer with customizable features and Windows media integration to graphically display information about audio levels and media.
                     </p>
                 </div>  
-                <div id="p2" class="project-expand closed">
+                <div id="p2" class="project-expand closed" style="max-height: 1000px;">
                     <p>
                         A symester long project for the course Performant Programming with Python, this project utilized various APIs and libraries such as PyAudio, NumPy, SciPy, and PyGame to create a functional audio visualizer.
                         Every aspect of the visualizer is customizable and features a variety of different visualization styles. The Spotify and Windows Media Player APIs are also integrated to display media information and to pull album art colors for a dynamic color display which are influenced by the song's tempo.
                         This project demonstrates my ability to work with APIs, libraries, and frameworks to create a functional and optimized application that is deployed as an installable package.
-                    </p>                   
+                    </p>
+                    <!-- <img src="img/AlgoRythm.gif" alt="GIF of visualizer with changing colors" style="margin-bottom: -50px; margin-top: -50px;"/>                    -->
                     <div class="tags">
                         <div class="tag"><p>Python</p></div>
                         <div class="tag"><p>PyPi</p></div>
@@ -125,35 +175,18 @@
                 </div>
                 <span id="p3_chev" class="material-symbols-outlined" onClick="expandProject('p3')">expand_more</span>
             </div>
-            <div class="project">
-                <div class="project-info">
-                    <h3 tabindex="0" onkeydown="if(event.keyCode == 13) {expandProject('p4')}" onClick="expandProject('p4')">Freelance Web Development</h3>
-                    <p>
-                        A modern and fluid website, designed per client's request. Built from scratch using HTML, CSS, and JavaScript and deployed on WordPress.
-                    </p>
-                </div>
-                <div id="p4" class="project-expand closed">
-                    <img src="img/PriveeSample.gif" alt="Gif of Privee Website" />
-                    <p>Contracted by a yacht managment company based in Fort Lauderdale, FL.</p>
-                    <div class="tags">
-                        <div class="tag"><p>HTML</p></div>
-                        <div class="tag"><p>JavaScript</p></div>
-                        <div class="tag"><p>CSS</p></div>
-                        <div class="tag"><p>WordPress</p></div>
-                    </div>
-                </div>
-                <span id="p4_chev" class="material-symbols-outlined" onClick="expandProject('p4')">expand_more</span>
-            </div>
         </div>
         <div id="resume" class="resume">
             <h2>Resume</h2>
             <p>
-                • Experience in C++, C, Java, Python, Julia, SQL, JavaScript, MatLab, R, and HTML/CSS
-                <br/> • Experience working with Linux, Git, Docker, Ansible, Nginx, and managing a server
-                <br/> • Proficient at creating quality documents with Excel and Word
+                • Freelance Web Developer working on full-stack web applications using React, Node.js, and SQL/NoSQL DBs
+                <br/> • B.S. in Computer Science from the University of Florida
+                <br/> • Proficient in C++, C, Java, Python, Julia, SQL, JavaScript, MatLab, R, and HTML/CSS
+                <br/> • Operate a "homelab" server and network utilizing Linux, Git, Docker, Ansible, Nginx, and more
                 <br/> • Skilled and persistent at identifying issues and creating solutions, utilizing advanced research and analytical skills (Google-foo)
                 <br/> • Leadership and management skills as an Eagle Scout
-                <br/> <br/><a href="resume_laurence_mullen.pdf" target="_blank">Download it here.</a>
+                <br/> • Able to work in the United States and the United Kingdom; open to travel
+                <br/> <br/><a href="resume_laurence_mullen.pdf" target="_blank">Download my full resume here.</a>
             </p>
         </div>
         <div id="contact" class="contact">

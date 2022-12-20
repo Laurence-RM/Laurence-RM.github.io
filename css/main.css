@@ -170,7 +170,7 @@ h2 {
 }
 
 .project-expand.closed {
-    max-height: 0px;
+    max-height: 0px !important;
 }
 
 .project-expand img {
