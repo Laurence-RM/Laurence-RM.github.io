@@ -8,14 +8,4 @@ function expandProject(project) {
     } else {
         chevron_down.style.transform = "rotateX(180deg)";
     }
-
-    // if (element.scrollHeight == 0) {
-    //     chevron_down.style.transform = (!chevron_down.style.transform || chevron_down.style.transform =="rotate(0deg)") ? "rotate(360deg)" : "rotate(0deg)";
-    // } else if (element.style.max-height == "0px") {
-    //     element.style.maxHeight = "1000px";
-    //     chevron_down.style.transform = "rotateX(180deg)";
-    // } else {
-    //     element.style.maxHeight = "0px";
-    //     chevron_down.style.transform = "rotateX(0deg)";
-    // }
 }
