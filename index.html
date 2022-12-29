@@ -14,8 +14,11 @@
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="css/main.css" />
-        <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Tangerine">
+        <!-- Load Google Fonts and MUI Symbol -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
         <script async src="js/main.js"></script>
     </head>
@@ -105,13 +108,18 @@
                         The symmetry trap addon helps to solve this problem by identifying and comparing various minimums on the cost function.
                     </p>
                 </div>
-                <div id="p1" class="project-expand closed">
+                <div id="p1" class="project-expand closed" style="max-height: 1500px;">
                     <p>
                         JTA aids orthopaedic surgeons, providing a feature-rich program which can autonomously register 3D models of joint implants to X-ray images; 
                         this provides surgeons with greater accuracy when analyzing the fit of a patient's implant.
                         <br/><br/>
                         <img src="img/Femoral_Sym_Trap.png" alt="Femoral implant model in two different orientations" />
                         <h5 style="margin: 0px">Figure 1. Femoral implant models with identical outlines (Flood, 2018).</h5>
+                        <br/>
+                        The plot below visualizes the symmetry trap issue. The cost function has two local minima for a symmetrical implant, leading the optimizer to incorrectly align the model to the false minima.
+                        <br/><br/>
+                        <img src="img/GUI_Plot.png" alt="Screenshot of plugin cost function analysis plotting feature" />
+                        <h5 style="margin: 0px">Figure 2. Screenshot of cost function analysis 2D plotting feature.</h5>
                     </p>
                     <div class="tags">
                         <div class="tag"><p>C++</p></div>
@@ -133,11 +141,11 @@
                 </div>  
                 <div id="p2" class="project-expand closed" style="max-height: 1000px;">
                     <p>
-                        A symester long project for the course Performant Programming with Python, this project utilized various APIs and libraries such as PyAudio, NumPy, SciPy, and PyGame to create a functional audio visualizer.
+                        A semester-long project for the course Performant Programming with Python, this project utilized various APIs and libraries such as PyAudio, NumPy, SciPy, and PyGame to create a functional audio visualizer.
                         Every aspect of the visualizer is customizable and features a variety of different visualization styles. The Spotify and Windows Media Player APIs are also integrated to display media information and to pull album art colors for a dynamic color display which are influenced by the song's tempo.
                         This project demonstrates my ability to work with APIs, libraries, and frameworks to create a functional and optimized application that is deployed as an installable package.
                     </p>
-                    <!-- <img src="img/AlgoRythm.gif" alt="GIF of visualizer with changing colors" style="margin-bottom: -50px; margin-top: -50px;"/>                    -->
+                    <img src="img/AlgoRythm.gif" alt="GIF of visualizer with changing colors"/>                   
                     <div class="tags">
                         <div class="tag"><p>Python</p></div>
                         <div class="tag"><p>PyPi</p></div>
